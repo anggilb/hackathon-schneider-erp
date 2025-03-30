@@ -1,0 +1,8 @@
+pydantic
+PyYAML
+pytest
+Flask
+sqlite3
+haversine
+patch
+requests

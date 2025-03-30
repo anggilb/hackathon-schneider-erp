@@ -1,0 +1,146 @@
+[
+    {
+        "id": "001",
+        "customer": "John Doe",
+        "purchase_date": "2024-01-10",
+        "total_amount": "1,200.50€",
+        "items": [
+            {
+                "item": "Laptop",
+                "quantity": 1,
+                "price": "1200.50"
+            }
+        ],
+        "status": "Completed"
+    },
+    {
+        "ID": 2,
+        "client": {
+            "first_name": "Jane",
+            "last_name": "Smith"
+        },
+        "date": "10/02/24",
+        "amount": "950.75",
+        "items": [
+            {
+                "item": "Tablet",
+                "qty": 1,
+                "price": "950.75"
+            }
+        ],
+        "status": "Paid"
+    },
+    {
+        "transaction_id": "003",
+        "customer_name": "Bob-Jackson",
+        "order_date": "2024.03.05",
+        "total": 780.25,
+        "items": [
+            {
+                "item": "Smartphone",
+                "quantity": 1,
+                "price": 780.25
+            }
+        ],
+        "status": "complete"
+    },
+    {
+        "order_no": "004",
+        "buyer": {
+            "full_name": "Alice    Brown"
+        },
+        "date_of_purchase": "March 6, 2024",
+        "cost": "€1.500,75",
+        "items": [
+            {
+                "item": "Monitor",
+                "quantity": 2,
+                "price": "750.38"
+            }
+        ],
+        "status": "Completed "
+    },
+    {
+        "id": 5,
+        "client_name": "   Carlos Mendez  ",
+        "purchase_date": "06-03-24",
+        "amount_due": "1 250.50 EUR",
+        "items": [
+            {
+                "item": "Desk",
+                "quantity": 1,
+                "price": "1250.50"
+            }
+        ],
+        "status": "paid"
+    },
+    {
+        "transaction_id": "006",
+        "customer": "Emily-Watson",
+        "order_date": "2024/03/07",
+        "total": "1.340,80",
+        "items": [
+            {
+                "item": "Printer",
+                "quantity": 1,
+                "price": "1340.80"
+            }
+        ],
+        "status": "processing"
+    },
+    {
+        "ID": "007",
+        "client": {
+            "first_name": "Michael",
+            "last_name": "Johnson"
+        },
+        "date": "07-03-2024",
+        "amount": "1099.99",
+        "items": [
+            {
+                "item": "Chair",
+                "qty": 2,
+                "price": "550.00"
+            }
+        ],
+        "status": "In Progress"
+    },
+    {
+        "order_no": "008",
+        "customer": " Sarah  Connor ",
+        "purchase_date": "2024.03.08",
+        "total_amount": "870.00€",
+        "items": [
+            {
+                "item": "Webcam",
+                "quantity": 1,
+                "price": "870.00"
+            },
+            {
+                "item": "keyboard",
+                "quantity": 1,
+                "price": "150.00"
+            }
+        ],
+        "status": " Complete"
+    },
+    {
+        "transaction_number": "009",
+        "customer_identity": " Sarah  Connor ",
+        "purchase_date": "2024.03.08",
+        "total_amount": "870.00€",
+        "items": [
+            {
+                "item": "Webcam",
+                "quantity": 1,
+                "price": "870.00"
+            },
+            {
+                "item": "keyboard",
+                "quantity": 1,
+                "price": "150.00"
+            }
+        ],
+        "status": " Complete"
+    }
+]

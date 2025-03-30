@@ -1,0 +1,10 @@
+details_id,transaction_id,item,quantity,price
+1,1,Laptop,1,1200.5
+2,2,Tablet,1,950.75
+3,3,Smartphone,1,780.25
+4,4,Monitor,2,750.38
+5,5,Desk,1,1250.5
+6,6,Printer,1,1340.8
+7,7,Chair,2,550.0
+8,8,Webcam,1,870.0
+9,8,keyboard,1,150.0

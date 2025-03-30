@@ -1,0 +1,37 @@
+files:
+  input:
+    - "data_transformation/inputs/records.json"
+  transaction_output: "data_transformation/outputs/transactions.csv"
+  details_output: "data_transformation/outputs/details.csv"
+
+id_fields: ["id", "ID", "transaction_id", "order_no", "transaction_number"]
+name_fields:
+  [
+    "customer",
+    "customer_name",
+    "client_name",
+    "buyer.full_name",
+    "client",
+    "customer_identity",
+  ]
+date_fields: ["purchase_date", "date", "order_date", "date_of_purchase"]
+amount_fields: ["total_amount", "amount", "total", "cost", "amount_due"]
+status_fields: ["status"]
+status_mapping:
+  Completed: ["Completed", "complete", "Complete", "Paid", "paid"]
+  Pending: ["Pending", "In Progress", "Processing", "processing"]
+details_id_fields: ["details_id"]
+transaction_id_fields: ["transaction_id"]
+item_fields: ["item"]
+quantity_fields: ["quantity", "qty"]
+price_fields: ["price"]
+
+date_formats:
+  - "%Y-%m-%d"
+  - "%d/%m/%y"
+  - "%d/%m/%Y"
+  - "%d-%m-%y"
+  - "%Y.%m.%d"
+  - "%Y/%m/%d"
+  - "%d-%m-%Y"
+  - "%B %d, %Y"
